@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "LWZavN/tMVbO0jd+HgVPVzqgH3+m1gSiZuSfYMwc5zY=",
+  "Source": "LuckySpin",
+  "BasePath": "_content/LuckySpin",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LuckySpin/wwwroot",
+      "Source": "LuckySpin",
+      "ContentRoot": "/Users/noahku/Desktop/BIT 285/bit285_luckyspin_02/LuckySpin/wwwroot/",
+      "BasePath": "_content/LuckySpin",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/noahku/Desktop/BIT 285/bit285_luckyspin_02/LuckySpin/wwwroot/css/luckyStyles.css",
+      "SourceId": "LuckySpin",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/noahku/Desktop/BIT 285/bit285_luckyspin_02/LuckySpin/wwwroot/",
+      "BasePath": "_content/LuckySpin",
+      "RelativePath": "css/luckyStyles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/luckyStyles.css"
+    },
+    {
+      "Identity": "/Users/noahku/Desktop/BIT 285/bit285_luckyspin_02/LuckySpin/wwwroot/Images/LuckySpinCoins.jpg",
+      "SourceId": "LuckySpin",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/noahku/Desktop/BIT 285/bit285_luckyspin_02/LuckySpin/wwwroot/",
+      "BasePath": "_content/LuckySpin",
+      "RelativePath": "Images/LuckySpinCoins.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/LuckySpinCoins.jpg"
+    }
+  ]
+}

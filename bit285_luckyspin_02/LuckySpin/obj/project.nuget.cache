@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hYMt3TWVyFOswxB/tueIn0OAD1IRLqEKy2FpDq1adjRHhAxpnXfnEslmRl/rjDdjUG9HQo9tbEhdJtNj1dQADg==",
+  "success": true,
+  "projectFilePath": "/Users/noahku/Desktop/BIT 285/bit285_luckyspin_02/LuckySpin/LuckySpin.csproj",
+  "expectedPackageFiles": [
+    "/Users/noahku/.nuget/packages/microsoft.netcore.platforms/6.0.7/microsoft.netcore.platforms.6.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
