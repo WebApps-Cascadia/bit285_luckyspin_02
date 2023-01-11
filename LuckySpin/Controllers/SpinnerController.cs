@@ -24,10 +24,10 @@ namespace LuckySpin.Controllers
 
             //TODO: Use the if-else to assign spin's ImageShown property a CSS display value (either "block" or "none")
             if (spin.Numbers is not null && Array.Exists(spin.Numbers, n => n == luck)) {
-                spin.ImageDisplay = "block";
+                spin.ImageDisplay = "display:block";
             }
             else {
-                spin.ImageDisplay = "none";
+                spin.ImageDisplay = "display:none";
             }
             
             return View( spin ); //Passes the spin object to the View as a parameter
