@@ -24,7 +24,7 @@ if (!app.Environment.IsDevelopment()) {
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller}/{action}/{luck}",
+    pattern: "{controller}/{action}/{luck:range(1,9)}",
     defaults: new {
         controller = "Spinner",
         action = "Index",
