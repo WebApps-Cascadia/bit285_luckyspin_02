@@ -1,0 +1,28 @@
+﻿h1 {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 2.5em;
+    margin: .3em 0;
+}
+
+div {
+    display: inline-block;
+    width: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: lightyellow;
+    border: solid thin;
+    border-color: darkgoldenrod;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+}
+
+button {
+    font-size: 1.4em;
+    border-radius: 10px;
+    box-shadow: navy;
+    border: solid 2px rosybrown;
+    background-color: firebrick;
+    color: beige;
+}
