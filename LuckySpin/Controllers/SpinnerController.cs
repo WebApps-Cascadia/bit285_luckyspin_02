@@ -10,7 +10,7 @@ namespace LuckySpin.Controllers
     public class SpinnerController : Controller
     {
 
-        public IActionResult Index(int luck) 
+        public IActionResult Index(int luck)
         {
             Random random = new Random();
 
@@ -18,18 +18,21 @@ namespace LuckySpin.Controllers
             Spin spin = new Spin
             {
                 //TODO: assign properties Luck and Numbers, appropriate values in the constructor
-
+                Luck = luck,
+                Numbers = new int[] { random.Next(0, 10), random.Next(0, 10), random.Next(0, 10) }
             };
 
             //TODO: Use the if-else to assign spin's ImageShown property a CSS display value (either "block" or "none")
-            if (spin.Numbers is not null && Array.Exists(spin.Numbers, n => n == luck)) {
-
+            if (spin.Numbers is not null && Array.Exists(spin.Numbers, n => n == luck))
+            {
+                spin.ImageDisplay = "display:block";
             }
-            else {
-
+            else
+            {
+                spin.ImageDisplay = "display:none";
             }
-            
-            return View( spin ); //Passes the spin object to the View as a parameter
+
+            return View(spin); //Passes the spin object to the View as a parameter
         }
     }
 }
